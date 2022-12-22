@@ -154,7 +154,7 @@ header {
 .description-item {
   display: flex;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 12px;
   color: #ffffff;
 }
 
@@ -542,16 +542,15 @@ header {
   width: 850px;
   margin: auto;
   display: flex;
-  height: 600px;
+  flex-wrap: wrap;
 }
 
 .adv-title {
   font-size: 23px;
   font-weight: bolder;
-  margin-top: 71px;
-  margin-bottom: 31px;
+  margin-top: 60px;
   display: flex;
-  color: #333333;
+  color: #ffffff;
   margin-left: 1px;
   text-transform: uppercase;
   width: 100%;
@@ -561,4 +560,42 @@ header {
   width: 30px;
   margin-right: 11px;
   margin-left: 10px;
+}
+
+.adv-self {
+  margin-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.adv-item {
+  width: calc(100% / 12 * 4);
+}
+
+.adv-self h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #f2a04a;
+  padding: 5px;
+}
+
+.adv-self p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: white;
+  padding: 5px;
+}
+
+.adv-item img {
+  width: 46px;
+  margin-bottom: -2px;
+  padding: 5px;
+}
+
+.adv-btn {
+  margin-top: 34px;
+  margin-left: 13px;
+  position: inherit;
+  margin-bottom: 73px;
 }
