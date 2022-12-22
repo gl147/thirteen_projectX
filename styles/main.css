@@ -1,0 +1,564 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+/* HEADER */
+
+header {
+  background-image: linear-gradient(to right, #29317e, #1c2251);
+  height: 58px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  margin-left: 13px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.phone {
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* 
+  letter-spacing: 0.23em;
+  */
+
+.phone-icon {
+  height: 16px;
+  width: 16px;
+  background-image: url(../img/phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* DEVICE */
+
+.device {
+  width: 100%;
+  background-image: linear-gradient(to right, #29317e, #1c2251);
+  height: 676px;
+}
+
+.device-container {
+  width: 850px;
+  position: relative;
+  margin: auto;
+}
+
+.dev-description-title {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  width: 50%;
+  position: absolute;
+  top: 99px;
+  left: 12px;
+}
+
+.dev-description-title span {
+  color: #f2a04a;
+}
+
+.dev-image {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.asic-miner {
+  position: absolute;
+  width: 736px;
+  top: -50px;
+  right: -146px;
+  z-index: 2;
+}
+.asic-miner img {
+  width: inherit;
+}
+
+.dollars {
+  position: absolute;
+  width: 204px;
+  top: 75px;
+  right: 209px;
+  z-index: 2;
+}
+
+.dollars img {
+  width: inherit;
+}
+
+.heshrate {
+  position: absolute;
+  width: 128px;
+  top: 388px;
+  right: 24px;
+  z-index: 2;
+}
+
+.heshrate img {
+  width: inherit;
+}
+
+.warranty {
+  position: absolute;
+  width: 148px;
+  top: 467px;
+  right: 359px;
+  z-index: 2;
+}
+
+.warranty img {
+  width: inherit;
+}
+
+.rectangle {
+  width: 594px;
+  position: absolute;
+  top: 156px;
+  right: -84px;
+  z-index: 1;
+}
+
+.rectangle img {
+  width: inherit;
+}
+
+.description-item {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.description-item img {
+  width: 38px;
+  margin-right: 13px;
+}
+
+.dev-description-self {
+  position: absolute;
+  top: 274px;
+  left: 12px;
+}
+
+.order-call {
+  display: flex;
+  width: auto;
+  border: #f2a04a 1px solid;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  top: 416px;
+  left: 14px;
+  font-size: 12px;
+  padding: 13px;
+  padding-right: 26px;
+  margin-right: 5px;
+  justify-items: center;
+}
+
+.order-call img {
+  margin-right: 17px;
+  width: 15px;
+  margin-left: 8px;
+}
+
+/* device-info */
+
+.device-info-container {
+  width: 850px;
+  position: relative;
+  margin: auto;
+  height: 615px;
+}
+
+.detailed-description {
+  position: absolute;
+  width: 470px;
+  top: 55px;
+  left: 8px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.detailed-description span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.detailed-description img {
+  width: 28px;
+  margin-bottom: 6px;
+  margin-right: 11px;
+}
+
+.detailed-description p {
+  margin-top: 25px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.device-price-img {
+  position: absolute;
+  width: inherit;
+  top: 87px;
+  left: 471px;
+}
+
+.device-price-img img {
+  width: 409px;
+}
+
+.device-price {
+  position: absolute;
+  width: inherit;
+  top: 355px;
+  left: 528px;
+}
+
+.device-price img {
+  width: 349px;
+}
+
+.info {
+  background: #f2a04a;
+  top: 499px;
+  left: 13px;
+}
+
+/* ecosystem */
+
+.ecosystem {
+  width: 100%;
+  background: #fcfcfc;
+  height: 565px;
+  position: relative;
+  z-index: -5;
+}
+
+.ecosystem-container {
+  width: 850px;
+  background: #fcfcfc;
+  margin: auto;
+  height: 565px;
+  position: relative;
+  z-index: -4;
+}
+
+.circles {
+  width: inherit;
+  position: absolute;
+  top: -52px;
+  left: 50px;
+}
+
+.circles img {
+  width: 718px;
+}
+
+.borderbehind {
+  position: absolute;
+  top: 227px;
+  left: 9px;
+  width: 695px;
+  height: 248px;
+  border: #f2a04a 3px solid;
+  z-index: -2;
+}
+
+.verticalshadow {
+  position: absolute;
+  top: -4px;
+  left: 177px;
+  width: 352px;
+  height: 256px;
+  background: #fcfcfc;
+  z-index: -1;
+}
+
+.horizontalahdow {
+  position: absolute;
+  top: 72px;
+  left: -11px;
+  width: 714px;
+  height: 97px;
+  background: #fcfcfc;
+  z-index: -1;
+}
+
+.ecosystem-title {
+  position: absolute;
+  top: 54px;
+  left: 13px;
+  z-index: 1;
+}
+
+.ecosystem-title span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.ecosystem-title img {
+  width: 28px;
+  margin-bottom: 6px;
+  margin-right: 11px;
+}
+
+.eco {
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+}
+
+.eco1 {
+  top: 208px;
+  left: 259px;
+  width: 228px;
+  height: 100px;
+}
+
+.eco2 {
+  top: 329px;
+  left: -39px;
+  width: 178px;
+  height: 100px;
+}
+
+.eco3 {
+  top: 461px;
+  left: 258px;
+  width: 247px;
+  height: 100px;
+}
+
+.eco4 {
+  top: 321px;
+  left: 528px;
+  width: 281px;
+  height: 100px;
+}
+
+/* hosting-service */
+
+.hosting-service {
+  width: 100%;
+  background-image: linear-gradient(to right, #29317e, #1c2251);
+}
+
+.hosting-service-container {
+  width: 850px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.hosting-describtion {
+  position: absolute;
+  top: 78px;
+  left: 1px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.hosting-description-title {
+  margin-bottom: 52px;
+  display: flex;
+  color: #ffffff;
+  margin-left: 1px;
+}
+
+.hosting-description-title img {
+  width: 30px;
+  margin-right: 11px;
+}
+
+.hosting-img-mainer {
+  position: absolute;
+  top: 66px;
+  left: 418px;
+  width: inherit;
+  z-index: 2;
+}
+
+.hosting-img-mainer img {
+  width: 394px;
+  border-radius: 50px 0 50px 0;
+}
+
+.hosting-img-abstraction {
+  position: absolute;
+  top: 82px;
+  left: 434px;
+  width: inherit;
+  z-index: 1;
+}
+
+.hosting-img-abstraction img {
+  width: 394px;
+}
+
+.hosting {
+  top: 474px;
+}
+
+.monthly-service {
+  position: absolute;
+  top: 316px;
+  left: 0;
+  display: flex;
+  color: #ffffff;
+  font-size: 10px;
+  align-items: flex-end;
+}
+
+.monthly-service img {
+  width: 76px;
+}
+
+/* payment */
+
+.payment {
+  width: 100%;
+}
+
+.payment-container {
+  width: 850px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment-info-title {
+  font-size: 23px;
+  font-weight: bolder;
+  margin-top: 71px;
+  margin-bottom: 31px;
+  display: flex;
+  color: #333333;
+  margin-left: 1px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.payment-info-title img {
+  width: 30px;
+  margin-right: 11px;
+  margin-left: 10px;
+}
+
+.payment-info {
+  width: 75%;
+  font-size: 13px;
+  margin-left: 11px;
+  line-height: 1.8;
+}
+
+.payment-types {
+  margin-top: 23px;
+  width: 100%;
+  display: flex;
+}
+
+.pay-type {
+  padding: 15px;
+  width: 25%;
+}
+
+.pay-type h1 {
+  font-size: 20px;
+}
+
+.p1 img {
+  width: 45px;
+}
+
+.p2 img {
+  width: 36px;
+}
+
+.p3 img {
+  width: 55px;
+}
+
+.p4 img {
+  width: 45px;
+}
+
+.pay-type span {
+  font-size: 12px;
+}
+
+.h-content {
+  height: 54px;
+}
+
+.payment-button {
+  background: #f2a04a;
+  margin-top: 34px;
+  margin-left: 13px;
+  position: inherit;
+  margin-bottom: 73px;
+}
+
+/* advantages */
+
+.advantages {
+  background-image: linear-gradient(to right, #29317e, #1c2251);
+}
+
+.adv-container {
+  width: 850px;
+  margin: auto;
+  display: flex;
+  height: 600px;
+}
+
+.adv-title {
+  font-size: 23px;
+  font-weight: bolder;
+  margin-top: 71px;
+  margin-bottom: 31px;
+  display: flex;
+  color: #333333;
+  margin-left: 1px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.adv-title img {
+  width: 30px;
+  margin-right: 11px;
+  margin-left: 10px;
+}
